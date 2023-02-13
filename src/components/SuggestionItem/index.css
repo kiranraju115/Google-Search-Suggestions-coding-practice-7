@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.suggestion-text {
+  color: #475569;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+.button {
+  background-color: transparent;
+  border-width: 0px;
+}
+.suggestion-logo {
+  height: 25px;
+  width: 25px;
+}
+
+@media (max-width: 576px) {
+  .suggestion-text {
+    font-size: 10px;
+  }
+  .suggestion-logo {
+    width: 15px;
+    height: 15px;
+  }
+}
